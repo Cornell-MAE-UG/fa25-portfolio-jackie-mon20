@@ -8,12 +8,12 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : Your Name
+title                    : Jackie monahan
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : Your Name
-description              : Your Name - Projects and CV 
-baseurl                  : "" # Set this to your repo name 
+name                     : Jackie monahan
+description              : Jackie monahan - Projects and CV 
+baseurl                  : "fa25-portfolio-jackie-mon20"
 
 # Theme and Style
 theme: jekyll-theme-minimal
