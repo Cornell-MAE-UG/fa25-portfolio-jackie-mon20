@@ -12,10 +12,7 @@ Real-world relevance: Similar exchangers are used in district heating plants, au
 How it works: Hot fluid enters one side of the exchanger while cold fluid enters from the opposite side, creating counter-flow operation. Heat is transferred by convection from the hot fluid to the plate, by conduction through the plate,  and by convection from the plate to the cold fluid
 
 Assumptions: 
-Steady State
-Negligible kinetic energy and potential energy changes
-No shaft work
-Adiabatic externally (there is only heat transfer between the fluids)
+Steady State;  Negligible kinetic energy and potential energy changes; No shaft work; Adiabatic externally (there is only heat transfer between the fluids)
 
 Use Control Volume to Analyze This Thermodynamic System
 Control Volume: Entire heat exchanger
