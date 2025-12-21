@@ -1,7 +1,8 @@
 ---
 layout: project
-title: Thermodynamic Analysis of a Brazed Plate Heat Exchanger (SWEP B10Hx20)
-description: Thermodynamics Portfolio
+title: Thermodynamics Portfolio
+description: Thermodynamic Analysis of a Brazed Plate Heat Exchanger (SWEP B10Hx20)
 image: /assets/images/function-graph.jpg
+image: /assets/images/spaceship-design.jpg
 ---
 
