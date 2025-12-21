@@ -13,7 +13,7 @@ Q̇_h = ṁhcp(T_h,in  - Th, out) = (0.10 kg/s)(4180 J/kgk)(60 ℃-45 ℃)
 Q̇_h =6.27kW
 
 Heat Transfer Cold Side:
-Q̇<sub>c</sub> = ṁccp(Tc, in-Tc, out) = (0.10 kg/s)(4180 J/kgk)(34 ℃-20 ℃) 
+Q̇<sub>c</sub> = ṁccp(Tcmf, in-Tc, out) = (0.10 kg/s)(4180 J/kgk)(34 ℃-20 ℃) 
 Q̇_c =5.85 kW
 
 This difference in heat gained and heat loss can be assumed to be from experimental heat loss, and general measurement uncertainties. 
