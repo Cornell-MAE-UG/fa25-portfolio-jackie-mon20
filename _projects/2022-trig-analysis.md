@@ -3,9 +3,11 @@ layout: project
 title: Thermodynamics Portfolio
 description: Thermodynamic Analysis of a Brazed Plate Heat Exchanger (SWEP B10Hx20)
 image: /assets/images/function-graph.png
-image2: /assets/images/old-radio.jpg
+image2: /assets/images/old-radio.png
 ---
-
+Picture of SWEP B10Hx20      Diagram of fluid flow
+                             ṁ<sub>h,in</sub> is hot in, ṁ<sub>h,out</sub> is hot out, ṁ<sub>c,in</sub> is cold in, ṁ<sub>c,out</sub> is cold out. 
+---
 ### Overview
 
 **Description:**  
@@ -46,19 +48,22 @@ Type: Steady-state, steady-flow control volume
 
 ---
 
-### Heat Transfer Hot Side (Heat Lost)
+### Challenging Adiabatic Assumption
 
-The heat transfer rate on the hot side is calculated as:
+**Heat Transfer Hot Side (Heat Lost)**
+
+If we consider the CV to be just the hot fluid and its flow that is loosing Q̇<sub>h</sub>
 
 Q̇<sub>h</sub> = ṁ<sub>h</sub> c<sub>p</sub> (T<sub>h,in</sub> − T<sub>h,out</sub>)  
 
 Q̇<sub>h</sub> = (0.10 kg/s)(4180 J/kg·K)(60 − 45)  
 
-**Q̇<sub>h</sub> = 6.27 kW**
+**Q̇<sub>h</sub> = 6.27 kW**\
 
----
 
-### Heat Transfer Cold Side (Heat Gained)
+**Heat Transfer Cold Side (Heat Gained)**
+
+If we consider the CV to be just the cold fluid and its flow that is gaining Q̇<sub>c</sub>
 
 The heat transfer rate on the cold side is calculated as:
 
