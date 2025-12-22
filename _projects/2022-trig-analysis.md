@@ -19,15 +19,17 @@ Steady State; Negligible kinetic energy and potential energy changes; No shaft w
 Control Volume: Entire heat exchanger  
 Type: Steady-state, steady-flow control volume
 
----
+<hr>
 
 ### System Diagram
 
 The figure below shows a control-volume diagram of the brazed plate heat exchanger operating in counter-flow. Mass flow rates and inlet and outlet temperatures are labeled for both the hot and cold fluid streams. Heat transfer occurs internally between the streams, with no shaft work interaction.
 
-![System Diagram](assets/images/old-radio.jpg)
+<p align="center">
+  <img src="assets/images/old-radio.jpg" width="600">
+</p>
 
----
+<hr>
 
 ### Data
 
@@ -42,15 +44,17 @@ The figure below shows a control-volume diagram of the brazed plate heat exchang
 | T_c,in | 20 °C |
 | T_c,out | 34 °C |
 
----
+<hr>
 
 ### Heat Transfer Hot Side (Heat Lost)
+
+The heat transfer rate on the hot side is calculated as:  
 
 Q̇_h = m_h c_p (T_h,in − T_h,out)  
 
 Q̇_h = (0.10 kg/s)(4180 J/kg·K)(60 − 45) = **6.27 kW**
 
----
+<hr>
 
 ### Heat Transfer Cold Side (Heat Gained)
 
@@ -58,9 +62,9 @@ Q̇_c = m_c c_p (T_c,out − T_c,in)
 
 Q̇_c = (0.10 kg/s)(4180 J/kg·K)(34 − 20) = **5.85 kW**
 
-Difference between heat lost and heat gained is due to measurement uncertainty and minor heat losses.
+The difference between heat lost on the hot side and heat gained on the cold side is attributed to experimental heat losses and general measurement uncertainty.
 
----
+<hr>
 
 ### Entropy Balance
 
@@ -72,15 +76,15 @@ Ṡ_gen = (0.10 kg/s) [ ln((45+273.15)/(60+273.15)) + ln((34+273.15)/(20+273.15)
 
 Since Ṡ_gen > 0, this confirms irreversibility due to finite temperature differences during heat transfer.
 
----
+<hr>
 
 ### Real-World Achievable Conditions
 
-- **Adiabatic:** Some heat loss to surroundings is unavoidable  
+- **Adiabatic:** Some heat loss to the surroundings is unavoidable  
 - **Steady state:** Achieved after reservoir temperatures stabilize  
 - **Kinetic and potential energy changes:** Negligible
 
----
+<hr>
 
 ### Sources
 
