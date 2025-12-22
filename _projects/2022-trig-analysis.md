@@ -5,9 +5,7 @@ description: Thermodynamic Analysis of a Brazed Plate Heat Exchanger (SWEP B10Hx
 image: /assets/images/function-graph.png
 image2: /assets/images/old-radio.png
 ---
----
-Picture of SWEP B10Hx20      Diagram of fluid flow
-                             ṁ<sub>h,in</sub> is hot in, ṁ<sub>h,out</sub> is hot out, ṁ<sub>c,in</sub> is cold in, ṁ<sub>c,out</sub> is cold out. 
+ṁ<sub>h,in</sub> is hot in, ṁ<sub>h,out</sub> is hot out, ṁ<sub>c,in</sub> is cold in, ṁ<sub>c,out</sub> is cold out
 ---
 ### Overview
 
