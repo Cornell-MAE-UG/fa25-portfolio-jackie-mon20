@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Jackie monahan - Portfolio
+title: Jackie Monahan - Portfolio
 permalink: /projects/
 ---
 
