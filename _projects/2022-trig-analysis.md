@@ -7,29 +7,28 @@ image: /assets/images/function-graph.jpeg
 
 ### Overview
 
-**Description:** The SWEP B10Hx20 brazed plate heat exchanger is a counter-flow heat exchanger used in HVAC systems, industrial process cooling, heat recovery systems, and refrigeration and heat pump loops. It consists of thin stainless-steel plates brazed together with copper, forming hot and cold flow channels that promote high heat transfer coefficients while maintaining a small footprint.
+**Description:**  
+The SWEP B10Hx20 brazed plate heat exchanger is a counter-flow heat exchanger used in HVAC systems, industrial process cooling, heat recovery systems, and refrigeration and heat pump loops. It consists of thin stainless-steel plates brazed together with copper, forming alternating hot and cold flow channels. The plate corrugations increase turbulence and heat transfer coefficients while maintaining a compact footprint.
 
-**How it works:** Hot fluid enters one side of the exchanger while cold fluid enters from the opposite side, creating counter-flow operation. Heat is transferred by convection from the hot fluid to the plate, by conduction through the plate, and by convection from the plate to the cold fluid.
+**How it works:**  
+Hot fluid enters one side of the exchanger while cold fluid enters from the opposite side, creating counter-flow operation. Heat is transferred by convection from the hot fluid to the plate, by conduction through the plate, and by convection from the plate to the cold fluid.
 
-**Real-world relevance:** Similar exchangers are used in district heating plants, automotive thermal management systems, and industrial energy recovery, making this device relevant to mechanical thermal systems.
+**Real-world relevance:**  
+Similar heat exchangers are used in district heating plants, automotive thermal management systems, and industrial energy recovery, making this device highly relevant to mechanical and thermal systems.
 
 **Assumptions:**  
-Steady State; Negligible kinetic energy and potential energy changes; No shaft work; Heat transfer occurs only between the fluids.
+- Steady state operation  
+- Incompressible liquid water  
+- Constant specific heat  
+- Negligible kinetic and potential energy changes  
+- No shaft work  
+- Heat transfer occurs only between the two fluid streams  
 
+**System definition:**  
 Control Volume: Entire heat exchanger  
-Type: Steady-state, steady-flow control volume
+Type: Steady-state, steady-flow control volume  
 
-<hr>
-
-### System Diagram
-
-The figure below shows a control-volume diagram of the brazed plate heat exchanger operating in counter-flow. Mass flow rates and inlet and outlet temperatures are labeled for both the hot and cold fluid streams. Heat transfer occurs internally between the streams, with no shaft work interaction.
-
-<p align="center">
-  <img src="C:\Users\monah\fa25-portfolio-jackie-mon20\assets\images\old-radio.jpg" width="600">
-</p>
-
-<hr>
+---
 
 ### Data
 
@@ -37,56 +36,83 @@ The figure below shows a control-volume diagram of the brazed plate heat exchang
 |----------|-------|
 | Hot Fluid | Water |
 | Cold Fluid | Water |
-| m_h | 0.10 kg/s |
-| m_c | 0.10 kg/s |
-| T_h,in | 60 °C |
-| T_h,out | 45 °C |
-| T_c,in | 20 °C |
-| T_c,out | 34 °C |
+| ṁ<sub>h</sub> | 0.10 kg/s |
+| ṁ<sub>c</sub> | 0.10 kg/s |
+| T<sub>h,in</sub> | 60 °C |
+| T<sub>h,out</sub> | 45 °C |
+| T<sub>c,in</sub> | 20 °C |
+| T<sub>c,out</sub> | 34 °C |
 
-<hr>
+---
 
 ### Heat Transfer Hot Side (Heat Lost)
 
-The heat transfer rate on the hot side is calculated as:  
+The heat transfer rate on the hot side is calculated as:
 
-Q̇_h = m_h c_p (T_h,in − T_h,out)  
+Q̇<sub>h</sub> = ṁ<sub>h</sub> c<sub>p</sub> (T<sub>h,in</sub> − T<sub>h,out</sub>)  
 
-Q̇_h = (0.10 kg/s)(4180 J/kg·K)(60 − 45) = **6.27 kW**
+Q̇<sub>h</sub> = (0.10 kg/s)(4180 J/kg·K)(60 − 45)  
 
-<hr>
+Q̇<sub>h</sub> = **6.27 kW**
+
+---
 
 ### Heat Transfer Cold Side (Heat Gained)
 
-Q̇_c = m_c c_p (T_c,out − T_c,in)  
+The heat transfer rate on the cold side is calculated as:
 
-Q̇_c = (0.10 kg/s)(4180 J/kg·K)(34 − 20) = **5.85 kW**
+Q̇<sub>c</sub> = ṁ<sub>c</sub> c<sub>p</sub> (T<sub>c,out</sub> − T<sub>c,in</sub>)  
 
-The difference between heat lost on the hot side and heat gained on the cold side is attributed to experimental heat losses and general measurement uncertainty.
+Q̇<sub>c</sub> = (0.10 kg/s)(4180 J/kg·K)(34 − 20)  
 
-<hr>
+Q̇<sub>c</sub> = **5.85 kW**
+
+The difference between heat lost on the hot side and heat gained on the cold side is attributed to measurement uncertainty, property assumptions, and minor external heat losses.
+
+---
 
 ### Entropy Balance
 
-dS/dt = Σ(Q̇ / T) + Σ ṁ_in s_in − Σ ṁ_out s_out + Ṡ_gen  
+The general entropy balance for a control volume is:
 
-Ṡ_gen = m_h c_p ln(T_h,out / T_h,in) + m_c c_p ln(T_c,out / T_c,in)  
+dS/dt = Σ(Q̇ / T) + Σṁ<sub>in</sub> s<sub>in</sub> − Σṁ<sub>out</sub> s<sub>out</sub> + Ṡ<sub>gen</sub>  
 
-Ṡ_gen = (0.10 kg/s) [ ln((45+273.15)/(60+273.15)) + ln((34+273.15)/(20+273.15)) ] = **0.26 W/K**
+Assuming incompressible liquid water with constant specific heat and negligible pressure drop, the entropy generation rate for this heat exchanger is:
 
-Since Ṡ_gen > 0, this confirms irreversibility due to finite temperature differences during heat transfer.
+Ṡ<sub>gen</sub> = ṁ<sub>h</sub> c<sub>p</sub> ln(T<sub>h,out</sub> / T<sub>h,in</sub>)  
+     + ṁ<sub>c</sub> c<sub>p</sub> ln(T<sub>c,out</sub> / T<sub>c,in</sub>)  
 
-<hr>
+Ṡ<sub>gen</sub> = (0.10)(4180)  
+[ ln((45 + 273.15)/(60 + 273.15)) + ln((34 + 273.15)/(20 + 273.15)) ]  
+
+Ṡ<sub>gen</sub> = **0.26 W/K**
+
+Since Ṡ<sub>gen</sub> > 0, this confirms irreversibility in the system due to finite temperature differences during heat transfer.
+
+---
+
+### Design / Operating Condition Change
+
+If the heat exchanger were operated in **parallel flow** instead of counter-flow, both fluids would enter at the same end of the exchanger. This would cause the temperature difference between the two streams to decrease rapidly along the flow length.
+
+As a result:
+- The overall heat transfer rate would decrease  
+- The exchanger effectiveness would be reduced  
+- Entropy generation would increase  
+
+This explains why compact brazed plate heat exchangers such as the SWEP B10Hx20 are typically designed for counter-flow operation.
+
+---
 
 ### Real-World Achievable Conditions
 
-- **Adiabatic:** Some heat loss to the surroundings is unavoidable  
-- **Steady state:** Achieved after reservoir temperatures stabilize  
-- **Kinetic and potential energy changes:** Negligible
+- **Adiabatic behavior:** External heat losses are minimized but not completely eliminated in practice.  
+- **Steady state:** Reasonably achieved once reservoir temperatures stabilize.  
+- **Kinetic and potential energy changes:** Negligible due to low flow velocities and minimal elevation differences.  
 
-<hr>
+---
 
 ### Sources
 
-- SWEP Heat Exchangers – Product Overview and Technical Notes  
+- SWEP International AB – *B10HX Brazed Plate Heat Exchanger Product Datasheet*   
 - ASHRAE Handbook – HVAC Systems and Equipment
