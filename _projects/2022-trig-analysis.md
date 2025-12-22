@@ -5,13 +5,13 @@ description: Thermodynamic Analysis of a Brazed Plate Heat Exchanger (SWEP B10Hx
 image: /assets/images/function-graph.jpeg
 ---
 
-### Overview
+### Overview:
 
-**Description of device:** The SWEP B10Hx20 brazed plate heat exchanger is a compact counter-flow heat exchanger commonly used in, HVAC systems, industrial process cooling, heat recovery systems, and refrigeration and heat pump loops
-It consists of thin stainless-steel plates brazed together with copper, forming alternating hot and cold flow channels that promote high heat transfer coefficients while maintaining a small footprint.
+**Description:** The SWEP B10Hx20 brazed plate heat exchanger is a  counter-flow heat exchanger used in HVAC systems, industrial process cooling, heat recovery systems, and refrigeration and heat pump loops. It consists of thin stainless-steel plates brazed together with copper, forming hot and cold flow channels that promote high heat transfer coefficients while maintaining a small footprint.
 
-**Real-world relevance:** Similar exchangers are used in district heating plants, automotive thermal management systems, and industrial energy recovery, which makes this device directly applicable to mechanical and aerospace thermal systems.
-How it works: Hot fluid enters one side of the exchanger while cold fluid enters from the opposite side, creating counter-flow operation. Heat is transferred by convection from the hot fluid to the plate, by conduction through the plate,  and by convection from the plate to the cold fluid
+**How it works:** Hot fluid enters one side of the exchanger while cold fluid enters from the opposite side, creating counter-flow operation. Heat is transferred by convection from the hot fluid to the plate, by conduction through the plate,  and by convection from the plate to the cold fluid
+
+**Real-world relevance:** Similar exchangers are used in district heating plants, automotive thermal management systems, and industrial energy recovery, which makes this device relevent to mechanical thermal systems.
 
 **Assumptions:** 
 Steady State;  Negligible kinetic energy and potential energy changes; No shaft work; Adiabatic externally (there is only heat transfer between the fluids)
@@ -22,21 +22,23 @@ Type: Steady-state, steady-flow control volume
 
 ---
 
-### Data
+### Data:
 
-![](images/radio-machine.jpeg)
+| Hot Fluid | Water |
 
-Hot Fluid: Water
+| Cold Fluid | Water |
 
-Cold Fluid: Water
+| ṁ<sub>h</sub> | 0.1 kg/s |
 
-ṁ<sub>h</sub>
+| ṁ<sub>c</sub> | 0.1 kg/s |
 
-ṁ<sub>c</sub>
+| T<sub>h,in</sub> | 60 °C |
 
-T<sub>h,in</sub>
+| T<sub>h,out</sub> | 45 °C |
 
-T<sub>h,out</sub>
+| T<sub>c,in</sub> | 20 °C |
+
+| T<sub>c,in</sub> | 34 °C |
 
 ---
 
