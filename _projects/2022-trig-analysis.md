@@ -22,23 +22,28 @@ Type: Steady-state, steady-flow control volume
 
 ---
 
+### System Diagram
+
+The figure below shows a control-volume diagram of the brazed plate heat exchanger operating in counter-flow. Mass flow rates and inlet and outlet temperatures are labeled for both the hot and cold fluid streams. Heat transfer occurs internally between the streams, with no shaft work interaction.
+
+<p align="center">
+  <img src="/assets/images/old-radio.jpeg" width="600">
+</p>
+
+---
+
 ### Data:
 
+| Parameter | Value |
+|----------|-------|
 | Hot Fluid | Water |
-
 | Cold Fluid | Water |
-
-| ṁ<sub>h</sub> | 0.1 kg/s |
-
-| ṁ<sub>c</sub> | 0.1 kg/s |
-
+| ṁ<sub>h</sub> | 0.10 kg/s |
+| ṁ<sub>c</sub> | 0.10 kg/s |
 | T<sub>h,in</sub> | 60 °C |
-
 | T<sub>h,out</sub> | 45 °C |
-
 | T<sub>c,in</sub> | 20 °C |
-
-| T<sub>c,in</sub> | 34 °C |
+| T<sub>c,out</sub> | 34 °C |
 
 ---
 
@@ -56,7 +61,7 @@ Q̇<sub>h</sub> = (0.10 kg/s)(4180 J/kg·K)(60 − 45) = **6.27 kW**
 
 The heat transfer rate on the cold side is:
 
-Q̇<sub>c</sub> = ṁ<sub>c</sub> c<sub>p</sub> (T<sub>c,in</sub> − T<sub>c,out</sub>)  
+Q̇<sub>c</sub> = ṁ<sub>c</sub> c<sub>p</sub> (T<sub>c,out</sub> − T<sub>c,in</sub>)  
 
 Q̇<sub>c</sub> = (0.10 kg/s)(4180 J/kg·K)(34 − 20) = **5.85 kW**
 
