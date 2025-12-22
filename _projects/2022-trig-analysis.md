@@ -27,7 +27,7 @@ Type: Steady-state, steady-flow control volume
 The figure below shows a control-volume diagram of the brazed plate heat exchanger operating in counter-flow. Mass flow rates and inlet and outlet temperatures are labeled for both the hot and cold fluid streams. Heat transfer occurs internally between the streams, with no shaft work interaction.
 
 <p align="center">
-  <img src="/assets/images/old-radio.jpg" width="600">
+  <img src="assets/images/old-radio.jpg" width="600">
 </p>
 
 ---
