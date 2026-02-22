@@ -8,11 +8,11 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : Jackie monahan
+title                    : Jackie Monahan
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : Jackie monahan
-description              : Jackie monahan - Projects and CV 
+name                     : Jackie Monahan
+description              : Jackie Monahan - Projects and CV 
 baseurl                  : "fa25-portfolio-jackie-mon20"
 
 # Theme and Style
