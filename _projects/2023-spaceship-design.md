@@ -3,9 +3,8 @@ layout: project
 title: Attacking Spotted Lanternflies' Reproduction Rate
 description: Designing tools to reduce SLF reproduction in Northeast vineyards
 technologies: [Product Design, Prototyping]
-image: SLF.jpg
+image: /assets/images/SLF.jpg
 ---
-## Attacking Spotted Lanternflies' Reproduction Rate
 
 **Team:** *Team Dragonfly*  
 **Clients:** Cornell CALS Extension / E&J Gallo Winery / National Grape
