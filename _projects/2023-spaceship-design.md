@@ -1,8 +1,10 @@
 ---
 layout: project
-title: MAE 2250 SLF project
+title: Attacking Spotted Lanternflies' Reproduction Rate
 description: Designing tools to reduce SLF reproduction in Northeast vineyards
 technologies: [Product Design, Prototyping]
+image: SLF.jpg
+---
 ## Attacking Spotted Lanternflies' Reproduction Rate
 
 **Team:** *Team Dragonfly*  
