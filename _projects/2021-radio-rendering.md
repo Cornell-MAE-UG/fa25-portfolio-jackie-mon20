@@ -221,7 +221,7 @@ the blade can be widely used.
 
 ---
 
-## <a id="final-prototype"></a>Final Prototype
+## <a id="final-prototype"></a>final Prototype
 
 ### Context and Problem Statement:
 The spotted lanternfly presents an especially challenging problem as its population grows rapidly
