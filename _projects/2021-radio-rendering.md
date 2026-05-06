@@ -268,7 +268,7 @@ and saw no degradation during this period.
 Our final prototype used a 1/32” CPVC scraper blade, 3 aluminum rods with 2 telescoping connectors, foam to softly stop the scraper blade from ‘snapping’ back, a large disposable bag, lasercut handle connector and triangular handle piece, 3D printer converter to take the circular rod to rectangular to connect to the blade assembly, the same spring hinge, and similar ¼”-20 and M3 hardware. This
 prototype withstood 50 uses in testing and subsequent use during presentations and exhibition day without significant degradation or deflection, was tested on trees outside, was rated highly across all users on comfort on both curved and flat surfaces, and had a maximum radius of curvature of 9.16”.
 
-### Assembly Instructions1:
+### Assembly Instructions:
 1. Assembling the Scraper Blade
   a. Cut the 1' x 1' CPVC Plate to 4¼" x 2¾" using band saw, belt sand at a 30° angle1
   b. Assemble springs onto ¼”-20 bolts and bolt through the laser-cut handle connector and CPVC scraper blade, placing a nut on the other end
@@ -294,3 +294,46 @@ prototype withstood 50 uses in testing and subsequent use during presentations a
   b. Be careful not to ‘snap’ the blade in one direction due to the spring hinge
   c. Place foam on top of the Handle Converter as a soft stop for the blade
 5. Attach the disposable bag to the back of the blade assembly by pushing it onto the bolts
+
+### Bill of Materials
+
+Final Prototype BOM (and Components List):
+Spring Hinge Spring | Spring Hinge | 15205A83 One Unit $1.68
+CPVC Scraper Blade | High-Temperature CPVC Sheet, 12" x 12" x 1/32" | 8748K21 One Unit $10.71
+Small Telescoping Connector | Lever Locking Connector for 1-3/8" and 1-1/2" OD Light Duty Aluminum Telescoping Rail | 6267N17 One Unit $9.24
+Large Telescoping Connector | Lever Locking Connector for 1-1/4" and 1-3/8" OD Light Duty Aluminum Telescoping Rail | 6267N16 One Unit $9.24
+Large Telescoping Rod | Architectural 6063Aluminum Round Tube | 6556N111 One Unit $17.53
+Medium Telescoping Rod | Architectural 6063Aluminum RoundTube | 6556N109 One Unit $11.06
+Small Telescoping Rod | Architectural 6063 Aluminum Round Tube | 6556N108 One Unit $10.31
+Foam Super-Cushioning Polyurethane Foam Sheet |8643K491 One Unit $18.42
+¼” Acrylic Sheet ¼” | Acrylic Sheet for laser cutting One Unit $7.00
+Triangular Handle Piece | Laser Cut Acrylic N/A One Unit $1.74 (RPL Laser
+Cutting)
+Handle Connector Laser Cut Acrylic N/A One Unit $1.09 (RPL Laser
+Cutting)
+Handle Converter PLA 3D Print 25.75g N/A One Unit $1.29
+¼”-20 Hardware ¼”-20 Nuts & Bolts N/A Free through Taylor Design Studio
+M3 Hardware M3 Nuts & Bolts N/A Free throughTaylor Design Studio
+Total: $99.31
+
+Overall Project BOM:
+Prototype 1 Handle | Clear Impact-Resistant Polycarbonate Rectangle Tube (1" x 1" x 1')| 3161T31-3161T311 one Unit $10.45
+Spring Hinge | Spring Spring Hinge 15205A83 One Unit $1.68
+Prototype 1 Scraper Blade| 1' x 1' x 1/16" PVC Plate| 8747K111 One Unit $4.71
+CPVC Scraper Blade | High-Temperature CPVC Sheet, 12" x 12" x 1/32" 8748K21 One Unit $10.71
+Large Telescoping Connector | Lever Locking Connector for 1-3/8" and 1-1/2" OD Light Duty Aluminum Telescoping Rail | 6267N17 One Unit $9.24
+Small Telescoping Connector | Lever Locking Connector for 1-1/4" and 1-3/8" OD Light Duty Aluminum Telescoping Rail 6267N16 One Unit $9.24
+Prototype 2 Telescoping Connector| Knob Locking Connector for 1-3/8" and 1-1/2" OD Light
+Duty Aluminum Telescoping Rail | 6267N25 One Unit $9.16
+Large Telescoping Rod | Architectural 6063 Aluminum Round Tube 6556N111 One Unit $17.53
+Medium Telescoping Rod | Architectural 6063 Aluminum Round Tube 6556N109 One Unit $11.06
+Small Telescoping Rod | Architectural 6063 Aluminum Round Tube 6556N108 One Unit $10.31
+Foam Super-Cushioning polyurethane Foam Sheet 8643K491 One Unit $18.42
+¼” Acrylic Sheet ¼” Acrylic Sheet for laser cutting N/A One Unit $7.00
+Triangular Handle Piece Laser Cut ¼” Acrylic N/A One Unit $1.74 (RPL Laser Cutting)
+Handle Connector Laser Cut ¼” Acrylic N/A One Unit $1.09 (RPL Laser
+Cutting)
+Handle Converter PLA 3D Print 25.75g N/A One Unit $1.29
+¼”-20 Hardware ¼”-20 Nuts & Bolts N/A Free through Taylor Design Studio
+M3 Hardware M3 Nuts & Bolts N/A Free through Taylor Design Studio
+Total: $123.63
